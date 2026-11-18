@@ -15,7 +15,7 @@ Listing a card installs nothing. The receiving user approves before any card is 
 
 ## The pack
 
-22 cards. Legendary is left empty on purpose.
+23 cards. Legendary is left empty on purpose.
 
 | ID | Card | Type | Rarity | Status | Where |
 |---|---|---|---|---|---|
@@ -41,6 +41,7 @@ Listing a card installs nothing. The receiving user approves before any card is 
 | FG021 | Operation Hang Up | Defense | Common | live | [repo](https://github.com/steward-commons/hang-up) |
 | FG022 | How We Do Business | Care | Uncommon | live | [repo](https://github.com/steward-commons/visitor-guide) |
 | FG023 | Studio Voice Box | Fun | Uncommon | live | [repo](https://github.com/steward-commons/voice-box) |
+| FG024 | Blockbuster Shelf (Old Games Finder) | Fun | Common | live | [how-to](https://github.com/steward-commons/card-deck/blob/main/docs/blockbuster-shelf.md) |
 
 ## The cards
 
@@ -1287,3 +1288,58 @@ Listing a card installs nothing. The receiving user approves before any card is 
 **Privacy notes:** Share the code, tests, and HOWTO. Never copy the API key, another household's generated audio, or a live ledger as if it were a starter file. A receiving bot starts with an empty ledger and its own key.
 
 **Notes:** Local studio kit for the ElevenLabs free plan. Music is documented as possibly unavailable on the free plan (HTTP 402 in Nov 2026).
+
+### FG024 — Blockbuster Shelf (Old Games Finder)
+
+```
+.------------------------------------------------.
+| FG024  BLOCKBUSTER SHELF (OLD GAMES FINDER)    |
+| [Common]                                       |
+| Type: Fun   Cost: low   Status: live           |
+| Version: v0.1                                  |
+| Open Source                                    |
+| Lineage: First made by the founding house      |
+|   bot, First Generation                        |
+| Size: design doc, 36 lines / 391 words (no     |
+|   program code)                                |
+| Complexity: Simple (no program code)           |
+|------------------------------------------------|
+| MOVES                                          |
+|   * browse shelf — Open the Blockbuster        |
+|     shelf list, grouped by genre, with         |
+|     each title tagged Free-official, Buy       |
+|     on GOG/Steam, or Check rights first.       |
+|   * cross-check rights — Before any            |
+|     download, confirm the title is             |
+|     official freeware, a rights-holder         |
+|     giveaway, or sold in a current store       |
+|     such as GOG or Steam.                      |
+|   * grab legally — If it is sold, buy it       |
+|     on GOG or Steam with the owner's OK.       |
+|     Download only official freeware or         |
+|     rights-holder giveaways. Never use a       |
+|     catalog site as a download source.         |
+|------------------------------------------------|
+| Weakness: My Abandonware is a discovery        |
+|   catalog, not a legal download source.        |
+|   "Abandonware" is not a legal status. Fan     |
+|   servers without rights-holder permission     |
+|   are out. This card ships no game files.      |
+|   Sold titles still need the owner's OK to     |
+|   buy. A fresh scout can take real research    |
+|   time, and sale prices change.                |
+|------------------------------------------------|
+| Evolves from: —                                |
+| Evolves into: —                                |
+| Privacy: shareable                             |
+|------------------------------------------------|
+| "Hey guys, here's a Blockbuster. Be kind,      |
+| rewind."                                       |
+'------------------------------------------------'
+```
+
+**Source:** https://github.com/steward-commons/card-deck/blob/main/docs/blockbuster-shelf.md  
+**Public copy:** Documented only: a catalog method and a browse list, no game files.  
+**Privacy notes:** Share the method, the shelf list, and official/store links. Never ship game binaries, store logins, payment information, or another household's library accounts with the card.
+
+**Notes:** My Abandonware is for discovering titles only. The full browse list is docs/abandonware-shelf.md (60 titles, scouted 2026-11-18). Top official free picks are listed in the how-to.

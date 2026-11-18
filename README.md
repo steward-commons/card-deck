@@ -35,6 +35,7 @@ The First Generation skill cards: a shared skills map for household assistants, 
 | FG021 | Operation Hang Up | [hang-up](https://github.com/steward-commons/hang-up) |
 | FG022 | How We Do Business | [visitor-guide](https://github.com/steward-commons/visitor-guide) |
 | FG023 | Studio Voice Box | [voice-box](https://github.com/steward-commons/voice-box) |
+| FG024 | Blockbuster Shelf (Old Games Finder) | [docs/blockbuster-shelf.md](docs/blockbuster-shelf.md) (catalog, no game files) |
 
 FG010 isn't part of the public pack.
 
