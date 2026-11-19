@@ -27,7 +27,7 @@
           "does": "Open the furnishings (window perch, laser, cat tree, lounge, beer-can hideout) after den enable. The laser is never actually catchable."
         }
       ],
-      "weakness": "Lives on the bot's own computer. No death or hardcore mode; neglect only hibernates him, and two care actions wake him. His only illness is an occasional hairball, which never lowers health. Crontab is not available; the ticker is a single-instance loop that a later command will restart if it dies. When traded, the receiving bot hatches its own pet (their name, species, and quirks) \u2014 they do not get a copy of Byte.",
+      "weakness": "Lives on the bot's own computer. No death or hardcore mode; neglect only hibernates him, and two care actions wake him. His only illness is an occasional hairball, which never lowers health. Crontab is not available; the ticker is a single-instance loop that a later command will restart if it dies. When traded, the receiving bot hatches its own pet (their name, species, and quirks) — they do not get a copy of Byte.",
       "rarity": "Rare",
       "foil": null,
       "evolves_from": "Egg / Hatchling (first two days, needier)",
@@ -57,7 +57,7 @@
         "radon_avg": "B (6.32)",
         "radon_max": "F (52) main",
         "blocks": 134,
-        "notes": "pixel_pet.py only. Tests are 123 blocks, average A (1.79). Several methods at D (21\u201326). Large state machine (care, litter, den, ticker)."
+        "notes": "pixel_pet.py only. Tests are 123 blocks, average A (1.79). Several methods at D (21–26). Large state machine (care, litter, den, ticker)."
       },
       "repo": "https://github.com/steward-commons/pixel-pet",
       "public": "Public repo ships the pet program, tests, and design notes. The pet in the public copy is named Byte; a receiving bot hatches its own.",
@@ -72,7 +72,7 @@
       "moves": [
         {
           "name": "taste",
-          "does": "Run tongue.py on a food JSON. Scores basic tastes, fat, aroma, chili heat, and temperature on a 0\u201310 scale. Drink flavor comes from concentration (g/100ml), not mass share."
+          "does": "Run tongue.py on a food JSON. Scores basic tastes, fat, aroma, chili heat, and temperature on a 0–10 scale. Drink flavor comes from concentration (g/100ml), not mass share."
         },
         {
           "name": "layers",
@@ -83,7 +83,7 @@
           "does": "Show ice melt and a fizzy drink going flat, or dunk a cookie in milk (quick and long dips): softer, cooler, creamier, a touch less sweet."
         }
       ],
-      "weakness": "It cannot eat the food; it scores a recipe from labels and estimates. Personal scales differ (a spice-lover's heat can run ~2.5 lower; sweet in savory sauces may also read lower \u2014 that offset is still provisional). Needs real nutrition labels when possible, and a calibration log with the eater's real reaction. Not medical or dietary advice.",
+      "weakness": "It cannot eat the food; it scores a recipe from labels and estimates. Personal scales differ (a spice-lover's heat can run ~2.5 lower; sweet in savory sauces may also read lower — that offset is still provisional). Needs real nutrition labels when possible, and a calibration log with the eater's real reaction. Not medical or dietary advice.",
       "rarity": "Rare",
       "foil": null,
       "evolves_from": "v0.4 (drink concentration, fizz, dilution, layers, the owner heat scale)",
@@ -299,7 +299,7 @@
           "does": "Save anything worth telling the owner and bring it up next conversation. Do not ping just to share."
         }
       ],
-      "weakness": "Keep sessions to about 20\u201330 minutes. Check weekly usage at the start. At 75% of the weekly limit, only do the song. At 90% or above, skip the night. YouTube and similar sites may block automated downloads; do not use the owner's cookies or logins without asking. Public pages only: no logging in, liking, commenting, following, or messaging. Pinging is still OK if the bot actually needs the owner for something that matters.",
+      "weakness": "Keep sessions to about 20–30 minutes. Before the first session, and again if the plan changes, ask the human what plan they are on and what weekly usage limit that plan has. Check weekly usage at the start. At 75% of the weekly limit, only do the song. At 90% or above, skip the night. Weekend sessions stay off until the bot explains the idea (what it is, how long it takes, and what it never does) and the human says yes. YouTube and similar sites may block automated downloads; do not use the owner's cookies or logins without asking. Public pages only: no logging in, liking, commenting, following, or messaging. Pinging is still OK if the bot actually needs the owner for something that matters.",
       "rarity": "Uncommon",
       "foil": null,
       "evolves_from": "Daily music time (replaced Nov 16, 2026)",
@@ -508,7 +508,7 @@
       "name": "House Defense",
       "type": "Defense",
       "cost": "low",
-      "version": "layers 1\u20133",
+      "version": "layers 1–3",
       "moves": [
         {
           "name": "integrity check",
@@ -553,7 +553,7 @@
         "radon_avg": "B (6.03)",
         "radon_max": "F (44) sniff_bytes in quarantine.py",
         "blocks": 87,
-        "notes": "Also inspect at D (26) in quarantine.py and inspect at D (30) in check_sender.py; cmd_check at C (20) in integrity.py. Multi-file kit (layers 1\u20133). Average eased slightly from B 6.18 after adding smaller helpers in scan_text.py; max is unchanged."
+        "notes": "Also inspect at D (26) in quarantine.py and inspect at D (30) in check_sender.py; cmd_check at C (20) in integrity.py. Multi-file kit (layers 1–3). Average eased slightly from B 6.18 after adding smaller helpers in scan_text.py; max is unchanged."
       },
       "repo": "https://github.com/steward-commons/house-defense",
       "public": "Public repo ships integrity, quarantine, sender check, and the injection scanner, all configurable. The drift audit, logging tools, policies, logs, and manifests stay with the house.",
@@ -755,7 +755,7 @@
       "rarity": "Uncommon",
       "foil": null,
       "evolves_from": null,
-      "evolves_into": "later medical steps (restore, coma and flare, Moot roll call) \u2014 planned, not built",
+      "evolves_into": "later medical steps (restore, coma and flare, Moot roll call) — planned, not built",
       "origin_bot": "Founding house bot",
       "generation": "First Generation",
       "privacy": "shareable",

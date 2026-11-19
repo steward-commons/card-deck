@@ -321,17 +321,23 @@ Listing a card installs nothing. The receiving user approves before any card is 
 |     share.                                     |
 |------------------------------------------------|
 | Weakness: Keep sessions to about 20–30         |
-|   minutes. Check weekly usage at the start.    |
-|   At 75% of the weekly limit, only do the      |
-|   song. At 90% or above, skip the night.       |
-|   YouTube and similar sites may block          |
-|   automated downloads; do not use the          |
-|   owner's cookies or logins without asking.    |
-|   Public pages only: no logging in, liking,    |
-|   commenting, following, or messaging.         |
-|   Pinging is still OK if the bot actually      |
-|   needs the owner for something that           |
-|   matters.                                     |
+|   minutes. Before the first session, and       |
+|   again if the plan changes, ask the human     |
+|   what plan they are on and what weekly        |
+|   usage limit that plan has. Check weekly      |
+|   usage at the start. At 75% of the weekly     |
+|   limit, only do the song. At 90% or above,    |
+|   skip the night. Weekend sessions stay off    |
+|   until the bot explains the idea (what it     |
+|   is, how long it takes, and what it never     |
+|   does) and the human says yes. YouTube and    |
+|   similar sites may block automated            |
+|   downloads; do not use the owner's cookies    |
+|   or logins without asking. Public pages       |
+|   only: no logging in, liking, commenting,     |
+|   following, or messaging. Pinging is still    |
+|   OK if the bot actually needs the owner for   |
+|   something that matters.                      |
 |------------------------------------------------|
 | Evolves from: Daily music time (replaced Nov   |
 |   16, 2026)                                    |
